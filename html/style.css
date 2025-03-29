@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/10/21/59/landscape-1192669_1280.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área do body */
+    background-repeat: no-repeat; /* Impede que a imagem seja repetida */
+    background-position: center; /* Centraliza a imagem no body */
+    margin: 0;
+    transition: background-image 1s ease-in-out; /* Adiciona uma transição suave ao trocar a imagem */
+}
+
+.caixa-maior{
+    background: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+img{
+    width: 55px;
+}
+
+.input-cidade{
+    border: transparent;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color:#7c7c7c2b;
+    color:#fff;
+    width: calc(100%-100px);
+}
+
+.input-cidade:hover{
+    border:chartreuse 1px solid;
+}
+
+.botao-buscar{
+    border: transparent;
+    outline: none;
+    padding: 10px;
+    border-radius:50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+    margin-left: 10px;
+    transition: 0.3s;
+
+}
+
+.botao-buscar:hover{
+    background-color: #7c7c7c;
+    border:chartreuse 1px solid;
+}
+
+.img-buscar{
+    width:25px ;
+}
+
+.caixa-media{
+    margin-top: 30px;
+}
+
+.cidade{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.temp{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.umidade{
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    opacity: 0.8;
+}
